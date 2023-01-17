@@ -1,4 +1,4 @@
-# pokemo-game
+# pokemon-game
 
 ## Project setup
 ```
