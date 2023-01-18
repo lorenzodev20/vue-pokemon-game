@@ -4,7 +4,7 @@
       <li
         v-for="pokemon in pokemons"
         :key="pokemon.id"
-        @click="$emit"
+        @click="$emit('selection', pokemon.id)"
       >
       {{ pokemon.name }}
       </li>
@@ -18,6 +18,11 @@ export default {
     pokemons:{
       type: Array,
       required: true
+    }
+  },
+  methods:{
+    hola(){
+
     }
   }
 }
